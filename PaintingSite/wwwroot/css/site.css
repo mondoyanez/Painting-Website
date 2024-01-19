@@ -1,0 +1,51 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.bg-main {
+    background: #007000;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.carousel-indicators [data-bs-target] {
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    height: 20px !important;
+    width: 20px !important;
+    margin: 0 12px -20px !important;
+    border-radius: 100%;
+    background-color: #007000 !important;
+}
+
+.carousel-indicators button {
+    height: 20px !important;
+    width: 20px !important;
+    margin: 0 12px -20px !important;
+    border-radius: 100%;
+    background-color: #000000 !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.image-carousel-home {
+    width: 100%;
+    height: 300px;
+}
