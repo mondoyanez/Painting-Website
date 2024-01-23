@@ -58,6 +58,35 @@ html {
     background-color: #000000 !important;
 }
 
+.landing-page-header-business-hours {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline;
+    padding-right: 5px;
+}
+
+.landing-page-header-business-name {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.landing-page-paragraph-business-address {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.landing-page-paragraph-business-hours {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.map {
+    height: 50vh;
+    width: 80vh;
+}
+
 html {
   position: relative;
   min-height: 100%;
